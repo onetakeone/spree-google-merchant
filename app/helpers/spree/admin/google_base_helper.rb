@@ -6,11 +6,11 @@ module Spree
         value = "&mdash;" if value.blank?
         %(
         <tr>
-          <th scope="row">#{Spree.t(setting, :scope => :google_base)}:</th> 
+          <th scope="row">#{Spree.t(setting, :scope => :google_base)}:</th>
           <td>#{value}</td>
         </tr>).html_safe
       end
-      
+
       def setting_field(setting)
         type = Spree::GoogleBase::Config.preference_type(setting)
         res = ''

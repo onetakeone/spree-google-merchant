@@ -7,7 +7,7 @@ module Spree
     preference :ftp_password, :password, :default => ''
     preference :enable_taxon_mapping, :boolean, :default => false
     preference :enable_additional_images, :boolean, :default => false
-    
+
     # No default value provided
     # Omit trailing slash when setting
     #
