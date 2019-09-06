@@ -58,7 +58,7 @@ describe SpreeGoogleBase::FeedBuilder do
       end
 
       it "should initialize with the correct scope" do
-        @builder.ar_scope.to_sql.should == Spree::Product.by_store(@store).google_base_scope.scoped.to_sql
+        @builder.ar_scope.to_sql.should == Spree::Product.google_base_scope.scoped.to_sql
       end
 
       it "should initialize with the correct title" do

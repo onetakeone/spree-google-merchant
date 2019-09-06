@@ -42,11 +42,7 @@ module SpreeGoogleBase
     end
 
     def ar_scope
-      if @store
-        Spree::Product.by_store(@store).google_base_scope
-      else
-        Spree::Product.google_base_scope
-      end
+      Spree::Product.google_base_scope
     end
 
     def generate_and_transfer_store
