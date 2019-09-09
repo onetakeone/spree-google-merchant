@@ -10,7 +10,7 @@ For product feed field definitions, (consult http://support.google.com/merchants
 INSTALLATION
 ------------
 
-1. Create google base account. Create google base ftp account (if applicable). Create data feed in google base with a type "Products" and name "google_base.xml".
+1. Create google base account. Create google base ftp account (if applicable). Create data feed in google base with a type "Products" and name "google_base_vspree.xml".
 
 2. Install the extension with one of the following commands
 
