@@ -21,7 +21,7 @@ INSTALLATION
 
 3. Edit product_type, priorities in spree admin (/admin/taxon_map)
 
-4. Set preferences in spree admin panel (/admin/google_base_settings) for the feed title, public domain, feed description, ftp login and password. FTP login is not required - you may schedule upload from the public directory.
+4. Set preferences in spree admin panel (/admin/google_base_settings) for the feed title, public domain (www.uploads.google.com), feed description, ftp login and password. FTP login is not required - you may schedule upload from the public directory.
 
 5. Issue the command `bundle exec rake spree_google_base:generate_and_transfer` to generate and upload the feed.
 
