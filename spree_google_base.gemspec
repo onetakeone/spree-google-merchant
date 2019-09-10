@@ -4,7 +4,7 @@ Gem::Specification.new do |s|
   s.version     = '3.1.7'
   s.summary     = 'Google Base for Spree'
   s.description = 'Provide rake task to generate XML for Google Base and so on.'
-  s.required_ruby_version = '>= 2.4.0'
+  s.required_ruby_version = '>= 2.3.4'
 
   s.authors     = ['Steph Skardal', 'Ryan Siddle', 'Roman Smirnov', 'Denis Ivanov']
   s.homepage          = 'http://github.com/jumph4x/spree-google-base'
